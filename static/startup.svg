@@ -1,0 +1,35 @@
+<svg width="320" height="320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="320" height="320" fill="url(#bg)" rx="20"/>
+  
+  <!-- Main Circle -->
+  <circle cx="160" cy="160" r="80" fill="#ffffff" opacity="0.9"/>
+  
+  <!-- File Icon -->
+  <rect x="130" y="130" width="60" height="80" fill="#667eea" rx="5"/>
+  <rect x="130" y="130" width="45" height="10" fill="#764ba2"/>
+  
+  <!-- Lightning Bolt -->
+  <path d="M180 140 L190 150 L185 160 L195 170 L180 160 L185 150 Z" fill="#FFD700"/>
+  
+  <!-- Bot Eyes -->
+  <circle cx="145" cy="145" r="4" fill="#667eea"/>
+  <circle cx="175" cy="145" r="4" fill="#667eea"/>
+  
+  <!-- Title -->
+  <text x="160" y="240" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">
+    FILE MANAGER BOT
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="160" y="260" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" opacity="0.8">
+    Professional • Fast • Reliable
+  </text>
+</svg>
